@@ -7,13 +7,13 @@ import SecondPara from "./SecondPara";
 const Footer = () => {
   const num = [1, 2, 3, 4];
   return (
-    <div className="relative top-24 z-10">
+    <div className="relative  top-24 z-10">
       <div className="relative bottom-52   z-10 flex flex-col items-center justify-center px-[148px] gap-8">
         <div className="mb-8">
           <img src="./svgs/divfoot1.svg" alt="foot-div" />
         </div>
       </div>
-      <div className="relative z-10 bg-black   flex flex-col  items-center  justify-center  ">
+      <div className="relative z-10 bg-black w-full  flex flex-col  items-center  justify-center  ">
         <div className="flex px-[148px] relative z-10 bottom-52 flex-col  gap-8">
           <div className="">
             <img src="./svgs/divfoot2.svg" alt="foot-div" />
@@ -42,7 +42,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="bg-black pb-10 px-[148px] flex flex-col items-start">
+      <div className="bg-black  w-full pb-10 px-[148px] flex flex-col items-start">
         <SecondPara
           title={"Very soflty."}
           desc={
@@ -50,7 +50,7 @@ const Footer = () => {
           }
           black={true}
         />
-        <div className="flex gap-8 my-24">
+        <div className="flex gap-8  my-24">
           {num.map((num, index) => {
             return (
               <div key={index}>
@@ -67,7 +67,7 @@ const Footer = () => {
           <h2 className="text-white font-medium text-[54px]">
             More Case Studies
           </h2>
-          <div className="flex gap-8 mt-12 mb-32">
+          <div className="flex justify-center  items-center gap-8 mt-12 mb-32">
             <CaseStudies
               title={"Toyota North America"}
               desc={"UX optimastion increasing conversion by 30%"}
