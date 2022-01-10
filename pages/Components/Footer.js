@@ -14,8 +14,8 @@ const Footer = () => {
                 <img src="./svgs/divfoot3.svg" alt="foot-div" />
                 </div>
             </div>
-            <div className=' h-screen relative '>
-            {/* <div className='mx-[148px] h-screen'>
+            <div className='absolute bg-black h-screen  '>
+            {/* <div className='mx-[148px] '>
                 <img src="./svgs/divfoot3.svg" alt="foot-div" />
                 
                 </div> */}
