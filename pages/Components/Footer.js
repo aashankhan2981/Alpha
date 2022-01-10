@@ -7,14 +7,14 @@ import SecondPara from "./SecondPara";
 const Footer = () => {
   const num = [1, 2, 3, 4];
   return (
-    <div className="relative z-10">
-      <div className="relative bottom-36   z-10 flex flex-col items-center justify-center px-[148px] gap-8">
+    <div className="relative top-24 z-10">
+      <div className="relative bottom-52   z-10 flex flex-col items-center justify-center px-[148px] gap-8">
         <div className="mb-8">
           <img src="./svgs/divfoot1.svg" alt="foot-div" />
         </div>
       </div>
-      <div className="relative  bg-black   flex flex-col  items-center  justify-center  ">
-        <div className="flex px-[148px] relative bottom-36 flex-col  gap-8">
+      <div className="relative z-10 bg-black   flex flex-col  items-center  justify-center  ">
+        <div className="flex px-[148px] relative z-10 bottom-52 flex-col  gap-8">
           <div className="">
             <img src="./svgs/divfoot2.svg" alt="foot-div" />
           </div>
@@ -22,7 +22,7 @@ const Footer = () => {
             <img src="./svgs/divfoot3.svg" alt="foot-div" />
           </div>
         </div>
-        <div className="relative bottom-12 ">
+        <div className="relative z-10 bottom-12 ">
           <SecondPara
             black={true}
             title={"The balance of forces."}
@@ -82,14 +82,14 @@ const Footer = () => {
             />
           </div>
         </div>
-        {/* <div className="relative left-96">
+        <div className="w-full items-center flex justify-center mb-12">
           <img src="./svgs/footarrow.svg" alt="arrow" />
-        </div> */}
+        </div>
         <div className="w-full items-center flex justify-between">
 
         <div className="flex  w-full items-start justify-between">
             
-          <div className="flex flex-col relative bottom-1 gap-14">
+          <div className="flex flex-col relative z-10 bottom-1 gap-14">
             <div>
               <h3 className="font-normal text-[40px] leading-tight text-white">
                 Are you ready?{" "}
