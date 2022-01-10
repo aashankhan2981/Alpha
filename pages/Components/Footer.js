@@ -32,9 +32,9 @@ const Footer = () => {
             <div className='bg-black px-[148px] flex flex-col items-start'>
                 <SecondPara title={"Very soflty."} desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor nulla nulla quam pellentesque risus consequat est. Feugiat vulputate sapien enim neque non blandit ullamcorper sit. Eget id augue mi nisi quam turpis morbi. "} black={true}/>
                 <div className='flex gap-8 my-24'>
-                    {num.map((num)=>{
+                    {num.map((num,index)=>{
                         return  ( <div >
-                        <img src="./svgs/Footsecondframe.svg" alt="footer-div" />
+                        <img src="./svgs/Footsecondframe.svg" key={index} alt="footer-div" />
                     </div>)
                     })}
               
