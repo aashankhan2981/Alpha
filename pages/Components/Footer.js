@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className='flex gap-8 my-24'>
                     {num.map((num,index)=>{
                         return  ( <div >
-                        <img src="./svgs/Footsecondframe.svg" key={index} alt="footer-div" />
+                        <img src="./svgs/Footsecondframe.svg" key={num} alt="footer-div" />
                     </div>)
                     })}
               
