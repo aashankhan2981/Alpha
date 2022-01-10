@@ -7,7 +7,7 @@ const Second = () => {
     return (
         <div className='relative z-10 flex flex-col items-center justify-center' >
             <div className='mb-20'>
-            <p className="mt-10 font-medium text-[#111827] text-xl">Visit Website</p>
+            <p className="mt-10 font-medium cursor-pointer text-[#111827] text-xl">Visit Website</p>
             <img src="./svgs/border.svg" alt="border" className='mt-1 ' />
             </div>
             <div className='mx-[148px]'>

@@ -92,17 +92,17 @@ const Footer = () => {
           <div className="flex flex-col relative z-10 bottom-1 gap-14">
             <div>
               <h3 className="font-normal text-[40px] leading-tight text-white">
-                Are you ready?{" "}
+                Are you ready?
               </h3>
               <span className="font-normal text-[40px] text-white leading-tight opacity-30">
                 because we are
               </span>
             </div>
             <div className="flex  items-center gap-1">
-              <h2 className="text-2xl font-normal border-b-[1px] border-b-white  text-white">
+              <h2 className="text-2xl font-normal cursor-pointer border-b-[1px] border-b-white  text-white">
                 Get in touch
               </h2>
-              <div>
+              <div className="cursor-pointer">
                 <img src="./svgs/footerarrowlast.svg" alt="arrow" />
               </div>
             </div>
