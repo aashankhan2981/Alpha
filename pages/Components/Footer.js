@@ -1,4 +1,5 @@
 import React from 'react'
+import CaseStudies from './CaseStudies'
 import FotterGallery from './FotterGallery'
 import SecondPara from './SecondPara'
 
@@ -12,7 +13,7 @@ const Footer = () => {
                 </div>
                
             </div>
-            <div className='relative  bg-black  w-full flex flex-col  items-center  justify-center  '>
+            <div className='relative  bg-black   flex flex-col  items-center  justify-center  '>
             <div className='flex px-[148px] relative bottom-36 flex-col  gap-8'>
             <div className=''>
                 <img src="./svgs/divfoot2.svg" alt="foot-div" />
@@ -29,7 +30,7 @@ const Footer = () => {
             <FotterGallery src1={"./svgs/footerframe2.svg"} src2={"./svgs/footergallery1.svg"} />
             </div>
             </div >
-            <div className='bg-black px-[148px] flex flex-col items-start'>
+            <div className='bg-black pb-10 px-[148px] flex flex-col items-start'>
                 <SecondPara title={"Very soflty."} desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor nulla nulla quam pellentesque risus consequat est. Feugiat vulputate sapien enim neque non blandit ullamcorper sit. Eget id augue mi nisi quam turpis morbi. "} black={true}/>
                 <div className='flex gap-8 my-24'>
                     {num.map((num,index)=>{
@@ -39,6 +40,41 @@ const Footer = () => {
                     })}
               
                
+                </div>
+                <div>
+                    <h2 className='text-white font-medium text-[54px]'>More Case Studies</h2>
+                    <div className='flex gap-8 mt-12 mb-32'>
+               
+                    <CaseStudies title={"Toyota North America"} desc={"UX optimastion increasing conversion by 30%"}/>
+                    <CaseStudies title={"SCTE-ISBE"} desc={"Systems Architecture using micro-services technology"}/>
+                    <CaseStudies title={"Toyota North America"} desc={"UX optimastion increasing conversion by 30%"}/>
+                    </div>
+
+                </div>
+                <div className='relative left-96'>
+                <img src="./svgs/footarrow.svg"   alt="arrow" />
+
+                    </div>
+                <div className='flex items-center justify-start'>
+                    <div className='flex flex-col gap-14'>
+                        <div>
+                        <h3 className='font-normal text-[40px] leading-tight text-white'>Are you ready? </h3>
+                        <span className='font-normal text-[40px] text-white leading-tight opacity-30'>because we are</span>
+                        </div>
+                        <div className='flex  items-center gap-1'>
+                <h2 className='text-2xl font-normal border-b-[1px] border-b-white  text-white'>Get in touch</h2>
+                {/* <div>
+                <img src="./svgs/footerarrowlast.svg" alt="arrow" />
+                </div> */}
+            </div>
+            <div>
+            <img src="./svgs/alpha.svg" alt="logo" />
+            </div>
+
+                    </div>
+                 
+
+
                 </div>
             </div>
 
