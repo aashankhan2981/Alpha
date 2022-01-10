@@ -19,7 +19,10 @@ const Footer = () => {
                 <img src="./svgs/divfoot3.svg" alt="foot-div" />
                 </div>
             </div>
+            <div className='relative bottom-12'>
             <SecondPara black={true} title={"The balance of forces."} desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor nulla nulla quam pellentesque risus consequat est. Feugiat vulputate sapien enim neque non blandit ullamcorper sit. Eget id augue mi nisi quam turpis morbi. "} />
+
+            </div>
             </div>
         </div>
     )
