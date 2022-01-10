@@ -107,7 +107,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <img src="./svgs/alpha.svg" alt="logo" />
+              <img src="./svgs/Alpha.svg" alt="logo" />
             </div>
           </div>
           <Lastfoot title={"San Diego"} desc={"4275 Executive Square, Suite 200 LA Jolla, CA 92037"} show={true}/>
