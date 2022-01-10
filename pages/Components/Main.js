@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = () => {
   return (
-      <>
+      <div className="relative z-10">
       <div><img src="./svgs/icon.svg" className="absolute bottom-2 left-8" alt="icon" /></div>
     <div className=" flex relative justify-center z-10 mt-2 px-2    items-end pb-10">
       <div className="relative gap-2 left-[100px] xl:left-[148px] 2xl:bottom-20 xl:bottom-10  z-10  flex flex-col items-start justify-end">
@@ -22,7 +22,7 @@ const Main = () => {
         />
         
       </div>
-      <div className="relative bottom-10 right-24 z-10">
+      <div className="relative 2xl:bottom-20 bottom-10 right-24 z-10">
         <p className="max-w-[655px] ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor
           nulla nulla quam pellentesque risus consequat est.
@@ -58,7 +58,7 @@ const Main = () => {
 
     </div>
     
-    </>
+    </div>
   );
 };
 

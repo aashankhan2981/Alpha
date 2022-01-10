@@ -7,7 +7,7 @@ import SecondPara from "./SecondPara";
 const Footer = () => {
   const num = [1, 2, 3, 4];
   return (
-    <div className="">
+    <div className="relative z-10">
       <div className="relative bottom-36   z-10 flex flex-col items-center justify-center px-[148px] gap-8">
         <div className="mb-8">
           <img src="./svgs/divfoot1.svg" alt="foot-div" />
