@@ -42,7 +42,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="bg-black  w-full pb-10 px-[148px] flex flex-col items-start">
+      <div className="bg-black 3xl:items-center w-full pb-10 px-[148px] flex flex-col items-start">
         <SecondPara
           title={"Very soflty."}
           desc={
@@ -64,7 +64,7 @@ const Footer = () => {
           })}
         </div>
         <div>
-          <h2 className="text-white font-medium text-[54px]">
+          <h2 className="text-white 3xl:text-center font-medium text-[54px]">
             More Case Studies
           </h2>
           <div className="flex justify-center  items-center gap-8 mt-12 mb-32">
