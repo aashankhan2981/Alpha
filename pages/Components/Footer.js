@@ -1,6 +1,7 @@
 import React from "react";
 import CaseStudies from "./CaseStudies";
 import FotterGallery from "./FotterGallery";
+import Lastfoot from "./Lastfoot";
 import SecondPara from "./SecondPara";
 
 const Footer = () => {
@@ -84,8 +85,11 @@ const Footer = () => {
         {/* <div className="relative left-96">
           <img src="./svgs/footarrow.svg" alt="arrow" />
         </div> */}
-        <div className="flex items-center justify-start">
-          <div className="flex flex-col gap-14">
+        <div className="w-full items-center flex justify-between">
+
+        <div className="flex  w-full items-start justify-between">
+            
+          <div className="flex flex-col relative bottom-1 gap-14">
             <div>
               <h3 className="font-normal text-[40px] leading-tight text-white">
                 Are you ready?{" "}
@@ -106,8 +110,15 @@ const Footer = () => {
               <img src="./svgs/alpha.svg" alt="logo" />
             </div>
           </div>
+          <Lastfoot title={"San Diego"} desc={"4275 Executive Square, Suite 200 LA Jolla, CA 92037"} show={true}/>
+          <Lastfoot title={"Islamabad"} desc={"Suite 301-305, Ground Floor, NSTP, NUST H-12, Islamabad"} />
+          
         </div>
+        </div>
+        
       </div>
+      
+
     </div>
   );
 };
