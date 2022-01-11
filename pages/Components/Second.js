@@ -5,7 +5,7 @@ import SecondPara from './SecondPara'
 
 const Second = () => {
     return (
-        <div className='relative z-10 flex flex-col items-center justify-center' >
+        <div className='relative z-10 mt-2 flex flex-col items-center justify-center' >
             <div className='mb-20'>
             <p className="mt-10 font-medium cursor-pointer text-[#111827] text-xl">Visit Website</p>
             <img src="./svgs/border.svg" alt="border" className='mt-1 ' />

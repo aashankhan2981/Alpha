@@ -67,7 +67,7 @@ const Footer = () => {
           <h2 className="text-white 3xl:text-center font-medium text-[54px]">
             More Case Studies
           </h2>
-          <div className="flex justify-center  items-center gap-8 mt-12 mb-32">
+          <div className="flex justify-center  items-center  gap-8 mt-12 mb-32">
             <CaseStudies
               title={"Toyota North America"}
               desc={"UX optimastion increasing conversion by 30%"}

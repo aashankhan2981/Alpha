@@ -15,16 +15,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className='bg-white ' >
-      <div className='w-[1px] bg-[#E5E7EB] h-full fixed  left-[7%] '></div>
-      <div className='w-[1px] z-0 bg-[#E5E7EB] h-full fixed  left-1/4 '></div>
-      <div className='w-[1px] z-0 bg-[#E5E7EB] h-full fixed  left-1/2 '></div>
-      <div className='w-[1px] z-0 bg-[#E5E7EB] h-full fixed  left-3/4 '></div>
-      <div className='w-[1px] bg-[#E5E7EB] h-full fixed  right-[5%] '></div>
+      {/* <div className='fixed  flex justify-between w-full h-full '>
 
+      <div className='w-[1px] xl:-[7%] -[9%] bg-[#E5E7EB] h-full   '></div>
+      <div className='w-[1px] z-0 bg-[#E5E7EB] h-full   -1/4 '></div>
+      <div className='w-[1px] z-0 bg-[#E5E7EB] h-full   -1/2 '></div>
+      <div className='w-[1px] z-0 bg-[#E5E7EB] h-full   -3/4 '></div>
+      <div className='w-[1px] bg-[#E5E7EB] h-full   -[5%] '></div>
+
+      </div> */}
     <Header/>
     <Main/>
     <Second/>
-    <Footer/>
+    {/* <Footer/> */}
 
     </div>
       
